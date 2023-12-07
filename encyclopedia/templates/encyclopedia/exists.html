@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Entry exists
+{% endblock %}
+
+{% block body %}
+<h1 style="color: red;">ERROR</h1>
+
+<h2><a href="wiki/{{title}}">{{ title }}</a> already exists</h2>
+
+{% endblock %}
